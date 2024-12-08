@@ -3,7 +3,11 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
 
-model = load_model("malaria_infection_cnn_model.h5")
+@st.cache_resource
+def load_cancer_model():
+    return load_model("malaria_infection_cnn_model.h5")
+
+model = load_cancer_model()
 
 def process_image(img):
     img = img.resize((60, 60))
