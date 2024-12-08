@@ -5,6 +5,6 @@ This project uses a Convolutional Neural Network (CNN) to predict malaria infect
 - [Malaria Dataset from Kaggle](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria)
 
 ## Streamlit App
-- [Malaria Infection Prediction Web App](https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria)
+- [Malaria Infection Prediction Web App](https://malaria-infection-cnn.streamlit.app/)
 
 
